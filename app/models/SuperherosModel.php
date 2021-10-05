@@ -15,7 +15,7 @@ class SuperherosModel
 
     private function loadContent() {
         // Get the contents of the JSON file
-        $strJsonFileContents = file_get_contents(__DIR__."\superheros.json");
+        $strJsonFileContents = file_get_contents(__DIR__."/../../public/js/superheros.json");
 
         // Convert to array
         $array = json_decode($strJsonFileContents, true);
